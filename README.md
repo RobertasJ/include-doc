@@ -1,4 +1,4 @@
-# include-doc
+# inline-doc
 
 A working version of
 
@@ -14,10 +14,10 @@ and made to work on stable.
 ## Example usage
 
 ```rust
-#[include_doc("src/docs/thing/documentation.md")]
+#[inline_doc("src/docs/thing/documentation.md")]
 struct Thing;
 
-#[include_doc("src/docs/thing.md")]
+#[inline_doc("src/docs/thing.md")]
 fn thing() {}
 ```
 

@@ -1,10 +1,10 @@
 [package]
-name = "include-doc"
+name = "inline-doc"
 version = "0.1.0"
 edition = "2021"
 license-file = "LICENSE"
 description = "Embed markdown/text files as documentation"
-repository = "https://github.com/RobertasJ/include-doc"
+repository = "https://github.com/RobertasJ/inline-doc"
 readme = "README.md"
 keywords = ["doc"]
 

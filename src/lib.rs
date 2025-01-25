@@ -4,7 +4,7 @@ use quote::quote;
 use syn::{parse_macro_input, LitStr};
 
 #[proc_macro_attribute]
-pub fn include_doc(
+pub fn inline_doc(
     attr: proc_macro::TokenStream,
     input: proc_macro::TokenStream,
 ) -> proc_macro::TokenStream {
