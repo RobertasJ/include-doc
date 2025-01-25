@@ -8,6 +8,9 @@ A working version of
 
 Important to note that the path goes from the root of the project.
 
+This project was inspired by [lsp_doc](https://crates.io/crates/lsp_doc)
+and made to work on stable.
+
 ## Example usage
 
 ```rust
