@@ -1,0 +1,17 @@
+[package]
+name = "include-doc"
+version = "0.1.0"
+edition = "2024"
+license-file = "LICENSE"
+description = "Embed markdown/text files as documentation"
+repository = "https://github.com/RobertasJ/include-doc"
+readme = "README.md"
+keywords = ["doc"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0"
+quote = "1.0"
+proc-macro2 = "1.0"
